@@ -1,6 +1,6 @@
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton, Update
 from telegram.ext import CallbackContext
-from ..bot import BUSINESS_SUPPORT_MEMBER_CHAT_ID
+from telegram_bot.bot import BUSINESS_SUPPORT_MEMBER_CHAT_ID
 
 
 def handle_business_approval(update: Update, context: CallbackContext):

@@ -1,5 +1,5 @@
 from telegram.ext import CallbackContext
-from ..bot import send_approval_message
+from telegram_bot.bot import send_approval_message
 
 
 def handle_customer_message(update, context: CallbackContext):
