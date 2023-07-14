@@ -1,7 +1,6 @@
 from telegram_bot.business.interactions import handle_business_approval, send_approval_message
 from telegram.ext import CallbackContext
 import pytest
-
 # Mock objects for testing
 
 
