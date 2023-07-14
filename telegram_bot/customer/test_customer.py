@@ -1,4 +1,4 @@
-from telegram_bot.customer.interactions import handle_customer_message
+from telegram_bot.customer import interactions
 from telegram.ext import CallbackContext
 import pytest
 
